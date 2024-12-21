@@ -44,36 +44,33 @@ const projects = [
 
 export default function Projects() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-gray-900 dark:to-gray-800">
-      <div className="mx-auto max-w-6xl px-4 py-8">
-        <nav className="mb-12 flex items-center justify-between rounded-full bg-white/70 p-4 backdrop-blur-lg dark:bg-gray-800/70">
-          <Link href="/">
-            <Button variant="ghost" size="icon">
-              <ChevronLeft className="h-5 w-5" />
-            </Button>
-          </Link>
-          <h1 className="text-xl font-bold">Projects</h1>
-          <div className="w-10" />
-        </nav>
+    <div className="mx-auto max-w-6xl px-4 py-8">
+      <nav className="mb-12 flex items-center justify-between rounded-full bg-white/70 p-4 backdrop-blur-lg dark:bg-gray-800/70">
+        <Link href="/">
+          <Button variant="ghost" size="icon">
+            <ChevronLeft className="h-5 w-5" />
+          </Button>
+        </Link>
+        <h1 className="text-xl font-bold">Projects</h1>
+        <div className="w-10" />
+      </nav>
 
-        <div className="grid gap-8">
-          {projects.map((project, index) => (
-            <Card key={index} className="bg-white/70 p-8 backdrop-blur-lg dark:bg-gray-800/70">
-              <h2 className="text-2xl font-bold">{project.title}</h2>
-              <p className="mt-2 text-sm text-muted-foreground">{project.date}</p>
-              <div className="mt-4 prose dark:prose-invert">
-                <p>{project.description}</p>
-              </div>
-              <div className="mt-6">
-                <Link href={project.link} target="_blank">
-                  <Button variant="outline">View Project</Button>
-                </Link>
-              </div>
-            </Card>
-          ))}
-        </div>
+      <div className="grid gap-8">
+        {projects.map((project, index) => (
+          <Card key={index} className="bg-white/70 p-8 backdrop-blur-lg dark:bg-gray-800/70">
+            <h2 className="text-2xl font-bold">{project.title}</h2>
+            <p className="mt-2 text-sm text-muted-foreground">{project.date}</p>
+            <div className="mt-4 prose dark:prose-invert">
+              <p>{project.description}</p>
+            </div>
+            <div className="mt-6">
+              <Link href={project.link} target="_blank">
+                <Button variant="outline">View Project</Button>
+              </Link>
+            </div>
+          </Card>
+        ))}
       </div>
     </div>
   )
 }
-

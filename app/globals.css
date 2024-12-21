@@ -57,3 +57,17 @@
     @apply bg-background text-foreground;
   }
 }
+
+@layer components {
+  .glass {
+    @apply bg-white/70 backdrop-blur-lg dark:bg-gray-800/70;
+  }
+  
+  .glass-card {
+    @apply glass p-8;
+  }
+  
+  .glass-nav {
+    @apply glass rounded-full p-4;
+  }
+}
