@@ -21,7 +21,7 @@ export default function About() {
         <h2 className="mb-6 text-2xl font-bold">Personal Information</h2>
         <div className="prose dark:prose-invert max-w-none">
           <p>
-            My name is Issa (pronounced Ee-Saa), a current junior student at Carleton College in Northfield, Minnesota. I hail from my hometown Rochester, also in Minnesota, where I've worked as a tutor with a STEM focus for many years. In my time in highschool, I operated as a local interpreter for newly migrated immigrants facilitated at my local mosque, assisting with completion of legal paperwork.
+            My name is Issa (pronounced Ee-Saa), a current senior student at Carleton College in Northfield, Minnesota. I hail from my hometown Rochester, also in Minnesota, where I've worked as a tutor with a STEM focus for many years. In my time in highschool, I operated as a local interpreter for newly migrated immigrants facilitated at my local mosque, assisting with completion of legal paperwork.
           </p>
           <p>
             I'm currently pursuing a bachelor's degree in Computer Science, with an interest in information security and product management. What fascinates me the most is this field's opportunity to work closely with cross-functional teams, including designers, engineers, marketers, and stakeholders, to build products that not only meet market demands but also delight users.

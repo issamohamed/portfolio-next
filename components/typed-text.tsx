@@ -23,7 +23,7 @@ export function TypedText({ strings }: TypedTextProps) {
   }, [strings])
 
   return (
-    <div className="text-4xl font-bold">
+    <div className="text-4xl">
       I am a <span ref={el} />
     </div>
   )
