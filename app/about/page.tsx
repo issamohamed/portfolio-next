@@ -28,7 +28,7 @@ export default function About() {
           </p>
           <div className="my-8">
             <Image
-              src="/images/rugby_team.jpg"
+              src="/images/personal_info.jpg"
               alt="Rugby Team"
               width={800}
               height={400}
