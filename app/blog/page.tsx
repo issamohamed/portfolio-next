@@ -21,7 +21,7 @@ export default function BlogPage() {
        </div>
      </div>
 
-     {/* Spacer to prevent content from hiding behind fixed header */}
+     {/* Spacer needed to prevent content from hiding behind fixed header */}
      <div className="h-36"></div>
 
      {/* Top Navigation Bar */}
