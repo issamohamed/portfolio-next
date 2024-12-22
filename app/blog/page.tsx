@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { ChevronLeft, Github, Linkedin, Twitter, Facebook, Music } from 'lucide-react'
+import { ChevronLeft, Github, Linkedin, Twitter, Facebook, Music, Instagram } from 'lucide-react'
 import { Button } from "../../components/ui/button"
 import { Playfair_Display } from 'next/font/google'
 
@@ -59,6 +59,11 @@ export default function BlogPage() {
          <Link href="https://open.spotify.com/user/uchiaclan" target="_blank">
            <Button variant="ghost" size="icon" className="text-white hover:text-white/80">
              <Music className="h-5 w-5" />
+           </Button>
+         </Link>
+         <Link href="https://www.instagram.com/issa101issa/" target="_blank">
+           <Button variant="ghost" size="icon" className="text-white hover:text-white/80">
+             <Instagram className="h-5 w-5" />
            </Button>
          </Link>
        </div>
