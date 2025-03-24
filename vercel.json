@@ -1,6 +1,7 @@
 {
-  "buildCommand": "next build",
-  "outputDirectory": ".next",
-  "installCommand": "npm install",
-  "framework": "nextjs"
+  "version": 2,
+  "buildCommand": "cd app && npm install --no-package-lock && next build",
+  "outputDirectory": "app/.next",
+  "framework": "nextjs",
+  "rootDirectory": "app"
 }
