@@ -1,0 +1,6 @@
+cat > .gitignore << EOL
+node_modules/
+.next/
+.DS_Store
+build/
+EOL
