@@ -5,6 +5,12 @@ import { Card } from "../../components/ui/card"
 
 const projects = [
   {
+    title: "Training Agent Trainers in Pokemon",
+    date: "March 17, 2025",
+    description: `I developed this AI project with a team to create intelligent agents for strategic decision-making in Pokemon battles. We implemented and compared tree-based search (Minimax with alpha-beta pruning) and reinforcement learning (Q-Learning) approaches using both Python and NodeJS, evaluating their performance across various battle scenarios. Pokemon provides a fascinating environment for AI research with its complex decision space, partial observability, and simultaneous actions. Our agents successfully learned type effectiveness, strategic switching, and optimal move selection through different computational approaches.`,
+    link: "https://github.com/Carleton-Comps/comps_24_25"
+  },
+  {
     title: "Natural Taste",
     date: "June 25, 2024",
     description: `"Natural Taste" is a nifty web application I've developed, inspired by the fascinating connection between weather and music, and how our environment can shape our listening experiences. At its core, the project represents my vision of creating a more intuitive and environmentally-aware approach to music discovery. The application is built as a multi-page web interface, with each page serving a distinct purpose in the user's journey. The landing page welcomes users with an engaging interface featuring social links and a clear call-to-action. From there, users can input their city to begin their weather-music exploration. The real magic happens behind the scenes: when a user enters their location, the application makes a precise API call to AccuWeather, fetching real-time weather data for their specific location. This weather information is then expertly processed and passed to the Groq AI API, which employs sophisticated algorithms to generate contextually appropriate music recommendations.`,
