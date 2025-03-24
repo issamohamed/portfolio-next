@@ -1,7 +1,7 @@
 import Link from "next/link"
 import { ChevronLeft } from 'lucide-react'
-import { Button } from "../../components/ui/button"
-import { Card } from "../../components/ui/card"
+import { Button } from "../components/ui/button"
+import { Card } from "../components/ui/card"
 
 const courses = [
   {
