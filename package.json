@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
     "name": "portfolio-next",
     "version": "0.1.0",
     "private": true,
@@ -39,7 +38,6 @@
         "typescript": "^5"
     }
 }
-=======
   "name": "portfolio-next",
   "version": "0.1.0",
   "private": true,
@@ -71,4 +69,4 @@
     "typescript": "^5"
   }
 }
->>>>>>> c0cca5ad78bfd1c7d16bbdc264d7d7d22dc959ec
+
