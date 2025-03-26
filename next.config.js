@@ -1,10 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: 'export',
-    basePath: '/portfolio-next',
-    images: {
-      unoptimized: true,
-    },
-  }
-  
-  module.exports = nextConfig
+  images: {
+    domains: ['*'], // Allow images from any domain
+  },
+}
+
+module.exports = nextConfig
